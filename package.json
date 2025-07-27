@@ -1,0 +1,52 @@
+{
+  "name": "wick-music-bot",
+  "version": "1.0.0",
+  "description": "🎵 A feature-rich music bot for Discord, built with love by Wick Studio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "discord-music-bot",
+    "discord.js",
+    "wickstudio",
+    "distube",
+    "music-player"
+  ],
+  "author": {
+    "name": "Wick Studio",
+    "email": "info@wick-studio.com",
+    "url": "https://discord.gg/wicks"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wickstudio/discord-music-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wickstudio/discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/wickstudio/discord-music-bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@distube/soundcloud": "^2.0.4",
+    "@distube/spotify": "^2.0.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
+    "discord-player": "^6.7.1",
+    "discord.js": "^14.16.3",
+    "distube": "^5.0.4",
+    "libsodium-wrappers": "^0.7.15",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "musicard": "^2.0.5",
+    "node-fetch": "^2.7.0",
+    "opusscript": "^0.0.8",
+    "sharp": "^0.33.5"
+  }
+}
